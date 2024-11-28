@@ -6,7 +6,7 @@ function Type() {
       <Typewriter
         words={[
           "Software Developer",
-          "Full Stack Developer",
+          "FullStack Developer",
           "Frontend Developer",
           "Backend Developer",
           "Freelancer",
