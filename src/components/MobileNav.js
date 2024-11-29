@@ -62,7 +62,7 @@ function MobileNav({ showNav, setShowNav }) {
         </ul>
 
         <a
-          href="https://github.com/riteshk-007/portfolio"
+          href="https://github.com/Alok-jaiswal/portfolio"
           target="_blank"
           rel="noreferrer"
           className="flex  w-24 my-5 mx-auto gap-2 justify-center items-center text-lg bg-fuchsia-900 px-3 py-[3px] border border-purple-700 rounded-sm"

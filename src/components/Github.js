@@ -9,7 +9,7 @@ function Github() {
   return (
     <div className="mx-auto  flex items-center justify-center my-3 p-2">
       <GitHubCalendar
-        username="riteshk-007"
+        username="alok-jaiswal"
         blockSize={15}
         blockMargin={5}
         style={{ color: "#ccc" }}

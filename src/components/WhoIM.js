@@ -1,6 +1,15 @@
 import React from "react";
 import { FaHandPointRight } from "react-icons/fa";
+import { useLottie } from "lottie-react";
+import react from "../util/react-lang.json";
+
 function WhoIM() {
+  const options = {
+    animationData: react,
+    loop: true,
+  };
+
+  const { View } = useLottie(options);
   return (
     <div className="flex flex-wrap items-center justify-center flex-col lg:flex-row relative">
       <img
@@ -13,18 +22,23 @@ function WhoIM() {
           Know Who <p className="text-[#ad50eb]">I'M</p>
         </h1>
         <div className="flex items-center m-auto justify-center w-11/12 lg:w-4/5">
-          <span className="flex flex-col gap-3 text-white items-start  text-base justify-center font-thin lg:text-lg">
-            <p className="text-start mt-3 mx-auto md:mx-0">
-              I'm Alok, a passionate Full-stack Web Developer based in Nagpur,
-              India. With 3+ years of experience, I specialize in the MERN
-              stack, including React, Next.js, Node.js, Express.js and Nest.js.
-              I've crafted high-performing web applications for diverse clients,
-              showcasing my skills through projects like a full-stack blogging
-              platform and a comprehensive e-commerce solution. As a Tech Lead &
-              Web Developer Intern at MnA Studio, I led teams in optimizing site
-              performance using Next.js. With a focus on continuous learning and
-              attention to detail, I'm dedicated to delivering cutting-edge
-              solutions. Let's connect and create something amazing together!
+          <span className="flex flex-col gap-3 text-white items-start text-justify text-base justify-center font-thin lg:text-lg">
+            {/* <p className="text-start text-justify mt-3 mx-auto md:mx-0"> */}
+            <p>
+              I am Alok Jaiswal, a passionate full-stack web developer from
+              Nagpur, India, with over 3 years of expertise in crafting
+              innovative web solutions. Specializing in the MERN stack—React,
+              Next.js, Node.js, Express.js, and Nest.js—I have successfully
+              developed high-performing applications for diverse clients,
+              combining technical proficiency with creative problem-solving.
+            </p>
+            <p>
+              As a Tech Lead and Software Developer at PERLA IT Pvt. Ltd., I led
+              projects that streamlined site performance with Next.js, showing
+              that I was able to lead teams in order to achieve impactful
+              outcomes. With continuous learning on my mind and an eye to
+              detail, I look forward to creating cutting-edge, user-focused
+              digital experiences.
             </p>
 
             <p className="flex text-gray-200 text-base lg:text-lg gap-2 font-semibold ">
@@ -40,11 +54,12 @@ function WhoIM() {
         </div>
       </div>
       <div className="w-full lg:w-1/2 h-full flex items-center justify-center z-20">
-        <img
+        {/* <img
           src="about.png"
           alt=""
           className="lg:p-10 object-cover lg:w-3/4 w-full"
-        />
+        /> */}
+        <>{View}</>
       </div>
     </div>
   );

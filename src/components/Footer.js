@@ -8,14 +8,14 @@ function Footer() {
   return (
     <div className="flex items-center justify-evenly bg-[#0F0416] text-white flex-wrap px-3 py-4">
       <p className="text-sm text-center m-2">
-        Designed and Developed by Ritesh
+        Designed and Developed by Alok
       </p>
       <p className="text-sm font-semibold text-center m-2">
-        Copyright © 2024 Ritesh.dev
+        Copyright © 2024 Alok.dev
       </p>
       <span className="flex items-center justify-center gap-7 m-2">
         <a
-          href="https://github.com/riteshk-007"
+          href="https://github.com/Alok-jaiswal"
           target="_blank"
           rel="noreferrer"
           className="text-white"
@@ -23,7 +23,7 @@ function Footer() {
           <BsGithub />
         </a>
         <a
-          href="https://twitter.com/Riteshk_007"
+          href="https://x.com/AlokJaiswa78598"
           target="_blank"
           rel="noreferrer"
           className="text-white"
@@ -31,7 +31,7 @@ function Footer() {
           <RiTwitterXFill />
         </a>
         <a
-          href="https://www.linkedin.com/in/ritesh-kumar-8064b626b"
+          href="https://www.linkedin.com/in/aloksjaiswal"
           target="_blank"
           rel="noreferrer"
           className="text-white"
@@ -39,7 +39,7 @@ function Footer() {
           <FaLinkedinIn />
         </a>
         <a
-          href="https://www.instagram.com/riteshk_007/?igshid=MzNlNGNkZWQ4Mg%3D%3D"
+          href="https://www.instagram.com/alokjais2512"
           target="_blank"
           rel="noreferrer"
           className="text-white"

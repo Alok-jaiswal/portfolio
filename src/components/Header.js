@@ -15,7 +15,7 @@ function Header() {
   const navigate = useNavigate();
   const [showNav, setShowNav] = useState(false);
   const [scroll, setScrolled] = useState(false);
-  const name = ["{ ALOK S. JASIWAL }"];
+  const name = ["{{ ALOK S. JASIWAL }}"];
   const handleScroll = () => {
     const offset = window.scrollY;
     if (offset > 50) {
@@ -84,7 +84,7 @@ function Header() {
         </ul>
 
         <a
-          href="https://github.com/riteshk-007/portfolio"
+          href="https://github.com/Alok-jaiswal/portfolio"
           target="_blank"
           rel="noreferrer"
           className="flex mx-10 gap-2 text-lg bg-purple-900 px-5 py-[5px] border border-purple-700 rounded-sm hover:bg-purple-800 transition-all duration-200 hover:-translate-y-[2px]"

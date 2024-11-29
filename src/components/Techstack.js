@@ -9,23 +9,23 @@ import {
   FaNodeJs,
   FaAws,
   FaDocker,
-  FaShopify,
+  // FaShopify,
 } from "react-icons/fa";
 import { BiLogoJavascript } from "react-icons/bi";
 import {
   SiFirebase,
   SiRedux,
   SiTailwindcss,
-  SiGreensock,
+  // SiGreensock,
   SiJquery,
-  SiPwa,
+  // SiPwa,
   SiExpress,
   SiMongodb,
 } from "react-icons/si";
 import { BsGit } from "react-icons/bs";
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiPrisma } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+// import { SiPrisma } from "react-icons/si";
+// import { DiRedis } from "react-icons/di";
 
 const data = [
   {
@@ -61,18 +61,18 @@ const data = [
   {
     icon: <FaBootstrap fontSize={70} color="#fff" />,
   },
-  {
-    icon: <SiGreensock fontSize={70} color="#fff" />,
-  },
+  // {
+  //   icon: <SiGreensock fontSize={70} color="#fff" />,
+  // },
   {
     icon: <SiJquery fontSize={70} color="#fff" />,
   },
   {
     icon: <FaWordpress fontSize={70} color="#fff" />,
   },
-  {
-    icon: <SiPwa fontSize={70} color="#fff" />,
-  },
+  // {
+  //   icon: <SiPwa fontSize={70} color="#fff" />,
+  // },
   {
     icon: <FaNodeJs fontSize={70} color="#fff" />,
   },
@@ -85,21 +85,21 @@ const data = [
   {
     icon: <TbBrandNextjs fontSize={70} color="#fff" />,
   },
-  {
-    icon: <SiPrisma fontSize={70} color="#fff" />,
-  },
+  // {
+  //   icon: <SiPrisma fontSize={70} color="#fff" />,
+  // },
   {
     icon: <FaAws fontSize={70} color="#fff" />,
   },
-  {
-    icon: <DiRedis fontSize={70} color="#fff" />,
-  },
+  // {
+  //   icon: <DiRedis fontSize={70} color="#fff" />,
+  // },
   {
     icon: <FaDocker fontSize={70} color="#fff" />,
   },
-  {
-    icon: <FaShopify fontSize={70} color="#fff" />,
-  },
+  // {
+  //   icon: <FaShopify fontSize={70} color="#fff" />,
+  // },
 ];
 function Techstack() {
   function shuffleArray(array) {
